@@ -67,7 +67,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         flag = true;
         $(".pre-loader").delay(350).fadeOut("slow");
         let audio = await new Audio("sound/sound.mp3");
-        // audio.play();
+        audio.play();
         audio.loop = true;
       }
     });
