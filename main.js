@@ -25,7 +25,8 @@ const CONFIG = {
     "Ta daaa, tin nhắn chưa có gởi đâu 😁😁\nNói chung là a sẽ chờ e, a muốn nhận được lời này do e tự viết ra\nCòn cảm động quá thì giờ gửi a lun cũng được 😁",
   messLink: "https://www.facebook.com/messages/t/3560755054001297/",
   videoLink: "video/pham_thi_van_anh.mp4",
-  music: "sound/sound.mp3",
+  // music: "sound/sound.mp3",
+  music: "sound/Top English Acoustic Love Songs 2020.mp3",
   soundYes: "sound/tick.mp3",
   soundNo: "sound/Swish1.mp3",
   bubble_sound: "sound/bubble.wav",
@@ -43,8 +44,6 @@ const buttonNo = document.getElementById("no");
 const buttonYes = document.getElementById("yes");
 let Count = 0; //Đếm số lần mouseover vào btnNo
 let flag; //Đặt cờ flag để code chỉ chạy 1 lần Content Loaded
-const IsMobile =
-  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
 
 window.mobileCheck = function () {
   let check = false;
@@ -64,7 +63,6 @@ window.mobileCheck = function () {
 
 window.addEventListener("DOMContentLoaded", (event) => {
   // is mobile..
-  // if (IsMobile.test(navigator.userAgent)) {
   if (window.mobileCheck()) {
     document.querySelector(".modals").classList.remove("d-none");
     document.querySelector(".modal-content label").textContent =
@@ -260,3 +258,4 @@ const CreatText = (idInput) => {
 
 init();
 
+console.log(window.mobileCheck());
