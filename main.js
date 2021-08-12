@@ -70,6 +70,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         let audio = await new Audio(CONFIG.music);
         audio.play();
         audio.loop = true;
+        audio.volume = 0.5;
       }
     });
   }
