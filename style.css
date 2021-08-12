@@ -263,8 +263,7 @@ header h2 {
 
 .modals::after {
   content: "";
-  background: url("../Crush/img/giphy2.gif") top left/15% no-repeat
-    rgba(0, 0, 123, 0.4);
+  background: url("img/giphy2.gif") top left/15% no-repeat rgba(0, 0, 123, 0.4);
   position: fixed;
   top: 0;
   left: 0;
