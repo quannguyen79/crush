@@ -24,7 +24,7 @@ const CONFIG = {
   afterAccept:
     "Ta daaa, tin nhắn chưa có gởi đâu 😁😁\nNói chung là a sẽ chờ e, a muốn nhận được lời này do e tự viết ra\nCòn cảm động quá thì giờ gửi a lun cũng được 😁",
   messLink: "https://www.facebook.com/messages/t/3560755054001297/",
-  videoLink: "pham_thi_van_anh.mp4",
+  videoLink: "video/pham_thi_van_anh.mp4",
   soundYes: "sound/tick.mp3",
   soundNo: "sound/Swish1.mp3",
   bubble_sound: "sound/bubble.wav",
