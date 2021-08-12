@@ -81,7 +81,7 @@ function init() {
 }
 
 document.getElementById("hihi").addEventListener("click", async (event) => {
-  let audio = await new Audio("sound/tick.mp3");
+  let audio = await new Audio(CONFIG.soundYes);
   audio.play();
   event.preventDefault();
   document.querySelector(".content").classList.add("d-none");
