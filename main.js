@@ -23,7 +23,7 @@ const CONFIG = {
   btnAccept: "Gửi nhóoo 💕💕💕",
   afterAccept:
     "Ta daaa, tin nhắn chưa có gởi đâu 😁😁\nNói chung là a sẽ chờ e, a muốn nhận được lời này do e tự viết ra\nCòn cảm động quá thì giờ gửi a lun cũng được 😁",
-  messLink: "https://www.facebook.com/messages/t/3560755054001297/",
+  messLink: "https://www.facebook.com/messages/t/100014824205489/",
   videoLink: "video/video.mp4",
   // music: "sound/sound.mp3",
   music: "sound/sound compound.mp3",
