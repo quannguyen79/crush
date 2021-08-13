@@ -247,6 +247,10 @@ video {
   word-wrap: break-word;
 }
 
+header {
+  color: #ca8a49;
+}
+
 header h2 {
   font-size: 3em;
 }

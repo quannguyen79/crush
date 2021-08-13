@@ -9,13 +9,13 @@ const CONFIG = {
   Đằng sau chữ yêu đây là thương`,
   btnIntro: "HiHi",
   title: "Phải chăng anh đã yêu ngay từ cái nhìn đầu tiên 😙",
-  desc: "Phải chăng anh đã say ngay từ lúc thấy nụ cười ấy ",
+  desc: "Phải chăng anh đã say ngay từ lúc thấy nụ cười ấy 🥰",
   btnYes1: "Vẫn cứ là thích anh iuiu ❤💕❤",
-  btnYes2: "K chịu sao được ❤💕❤",
-  btnYes3: "Điều tuyệt vời chỉ hiện khi e click ❤💕❤",
+  btnYes2: "Ngoài anh thì còn ai 😁",
+  btnYes3: "Hãy để a chứng minh cho e thấy 😉",
   btnNo1: "Không, Anh à 😢😢😢",
   btnNo2: "Chạy đâu cho trời hết nắng 😢😢😢",
-  btnNo3: "Số trời đã định rồi 😢😢😢",
+  btnNo3: "Ý trời k cho chọn đó 😌😌",
   question: "Trên thế giới hơn 7 tỉ người mà sao anh lại yêu mỗi em nhỉ ❤",
   placeholderInput: "Em có muốn gửi anh lời gì không 😁😁",
   reply: "Yêu thì yêu mà không yêu thì yêu <33 và anh vẫn sẽ chờ em mở lòng",
@@ -24,9 +24,9 @@ const CONFIG = {
   afterAccept:
     "Ta daaa, tin nhắn chưa có gởi đâu 😁😁\nNói chung là a sẽ chờ e, a muốn nhận được lời này do e tự viết ra\nCòn cảm động quá thì giờ gửi a lun cũng được 😁",
   messLink: "https://www.facebook.com/messages/t/3560755054001297/",
-  videoLink: "video/pham_thi_van_anh.mp4",
+  videoLink: "video/video.mp4",
   // music: "sound/sound.mp3",
-  music: "sound/Top English Acoustic Love Songs 2020.mp3",
+  music: "sound/sound compound.mp3",
   soundYes: "sound/tick.mp3",
   soundNo: "sound/Swish1.mp3",
   bubble_sound: "sound/bubble.wav",
@@ -199,6 +199,11 @@ buttonNo.addEventListener(
 );
 
 buttonYes.addEventListener("click", (event) => {
+  if (Count <= 5) {
+    console.log(Count);
+    alert("ui thương qá 😍, nhưng chọn sớm qá ah\nỞ sau còn vui mà 😁");
+    return null;
+  }
   console.log("She says YES!");
   let audio = new Audio(CONFIG.soundYes);
   audio.play();
